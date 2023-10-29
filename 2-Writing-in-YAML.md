@@ -150,3 +150,12 @@ We can use the gathered facts as variables in the Playbook.
     debug:
     msg: "This is {{ ansible_os_family }}"
 ```
+
+#### Locating Modules
+Tasks execute Python modules; these are files in the file system
+
+```sh
+$ find /usr/lib -name 'debug.py'
+$ find /usr/lib -name 'package.py'
+```
+
