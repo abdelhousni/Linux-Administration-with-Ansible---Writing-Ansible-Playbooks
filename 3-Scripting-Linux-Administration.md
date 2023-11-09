@@ -1,5 +1,7 @@
 # Scripting Linux Administration
 
+## Scripting or Ansible
+
 ## Scripting Solutions
 We Don't Need Ansible - We Can Script IT!
 - Well perhaps but ...
@@ -51,4 +53,12 @@ and then execute it
 ## Using Ansible to Provision Vagrant System
 
 
-## Summary and What•s Next
+## Summary and What's Next
+
+Scripting:
+- BASH Scripts can automate administration
+- We must build the logic
+- <color name="red">Errors may occur if already configured</color>
+- Using Ansible in scripts
+- Using Ansible in Vagrant
+  
